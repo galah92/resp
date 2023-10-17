@@ -163,6 +163,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "79b429ea925356d60c10d7214cf0e1777d9578c1287cd50aad09df3c22c4c2f1"
 dependencies = [
  "critical-section",
+ "log",
 ]
 
 [[package]]
@@ -243,6 +244,12 @@ dependencies = [
  "equivalent",
  "hashbrown",
 ]
+
+[[package]]
+name = "log"
+version = "0.4.20"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b5e6163cb8c49088c2c36f57875e58ccd8c87c7427f7fbd50ea6710b2f3f2e8f"
 
 [[package]]
 name = "memchr"
@@ -336,6 +343,7 @@ dependencies = [
  "esp-backtrace",
  "esp-println",
  "esp32c3-hal",
+ "log",
 ]
 
 [[package]]
