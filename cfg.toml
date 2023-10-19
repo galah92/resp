@@ -1,0 +1,4 @@
+[esp-wifi]
+# Increase the default value to avoid "ERROR - RX QUEUE FULL" logs in runtime
+# https://github.com/esp-rs/esp-wifi/issues/250#issuecomment-1694606068
+rx_queue_size = 15
